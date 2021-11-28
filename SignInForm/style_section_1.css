@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container {
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding: 0px 30px;
+}
+
+#container .color_section {
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+
+#section_1 {
+    display: flex;
+    justify-content: center;
+}
+
+#section_1 .contact_us {
+    text-align: center;
+    width: 700px;
+    /* margin-bottom: 30px; */
+}
+
+#section_1 .contact_us h1 {
+    font-size: 45px;
+    color: #adadad;
+    font-weight: 200;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#section_1 .contact_us h1::after {
+    content: '';
+    width: 70px;
+    height: 4px;
+    bottom: 0;
+    left: 50%;
+    background-image: -webkit-gradient(linear, left top, right top, from(#5192e1), color-stop(51%, #23ced5), to(#5192e1));
+    position: absolute;
+    transform: translate(-50%, 20px);
+}
+
+#section_1 .contact_us h1 span {
+    color: #696969;
+    font-weight: 400;
+}
+
+#section_1 .contact_us p {
+    font-size: 14px;
+    color: #808080;
+    line-height: 1.7;
+}
